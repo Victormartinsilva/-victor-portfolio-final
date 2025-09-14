@@ -10,7 +10,3 @@ def index():
 @app.route('/test')
 def test():
     return "Flask is working on Vercel!"
-
-# Se existir, remova estas linhas:
-# if __name__ == "__main__":
-#     app.run()
