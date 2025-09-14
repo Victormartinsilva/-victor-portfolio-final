@@ -24,5 +24,6 @@ def backup():
     }
     return render_template('index_backup.html', perfil=perfil)
 
-if __name__ == "__main__":
-    app.run()
+# REMOVER estas linhas se existirem:
+# if __name__ == "__main__":
+#     app.run()
