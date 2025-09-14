@@ -10,3 +10,4 @@ def index():
 @app.route('/test')
 def test():
     return "Flask is working on Vercel!"
+
